@@ -1,0 +1,13 @@
+mutation {
+    createBooking(
+      listing_id: "L001",
+      booking_id: "B001",
+			booking_date: "01-24-2022",
+      booking_start: "01-25-2022",
+      booking_end: "01-30-2022",
+      username: "primaworld",
+      secret: "admin",
+    ){
+    	id
+  }
+}

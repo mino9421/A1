@@ -1,0 +1,18 @@
+mutation {
+  createUser(
+    username: "primaworld",
+    firstname: "Pritesh",
+    lastname: "Patel",
+    password: "test123",
+    email: "p@p.com",
+    type: "admin"
+  ){
+    id
+    username
+    firstname
+    lastname
+    password
+    email
+    type
+  }
+}

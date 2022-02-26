@@ -1,0 +1,8 @@
+query {
+    login(
+        username: "mino9494",
+        password: "password"
+    ){
+        secret
+    }
+}

@@ -1,0 +1,14 @@
+query {
+  searchListingByName(listing_title: "sea face home for rent") {
+      id
+      listing_id
+      listing_title
+      description
+      street
+      city
+      postal_code
+      price
+      email
+      username
+    }
+}

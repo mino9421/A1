@@ -1,0 +1,13 @@
+query {
+    getAllUserBooking(username: "primaworld", secret: "customer") {
+        id
+        listing_id
+        booking_id
+        booking_date
+        booking_start
+        booking_end
+        username
+    } 
+}
+
+# username parameter shows system the user is logged and its the admin

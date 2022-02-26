@@ -1,0 +1,14 @@
+query{
+  searchListingByPostalCode(postal_code: "M1X0Y5"){
+      id
+      listing_id
+      listing_title
+      description
+      street
+      city
+      postal_code
+      price
+      email
+      username
+  }
+}

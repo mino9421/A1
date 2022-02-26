@@ -1,0 +1,16 @@
+mutation {
+    createListing(
+        listing_id: "L001",
+        listing_title: "sea face home for rent",
+        description: "lalalalallall lalal",
+        street: "171 Young Street",
+        city: "Toronto",
+        postal_code: "M1X0Y5",
+        price: 150.00
+        email: "contact@hilton.com",
+        username: "primaworld",
+        secret: "admin"
+    ) {
+        id
+    }
+}

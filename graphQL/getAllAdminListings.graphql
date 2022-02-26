@@ -1,0 +1,14 @@
+query {
+    getAllAdminListings(secret: "admin") {
+        id
+        listing_id
+        listing_title
+        description
+        street
+        city
+        postal_code
+        price
+        email
+        username
+    }
+}
