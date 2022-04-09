@@ -47,6 +47,7 @@ exports.typeDefs = gql `
         searchListingByName(listing_title: String!) : [Listing]
         searchListingByCity(city: String!) : [Listing]
         searchListingByPostalCode(postal_code: String!) : [Listing]
+        searchListing: [Listing]
     }
 
     type Mutation {

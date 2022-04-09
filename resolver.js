@@ -48,7 +48,9 @@ exports.resolvers = {
         searchListingByPostalCode: async (parent, args) => {
             return await Listing.find(args)
         },
-
+        searchListing: async (parent, args) => {
+            return await Listing.find({})
+        },
     },
 
     Mutation: {
