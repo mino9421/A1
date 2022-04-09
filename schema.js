@@ -70,7 +70,7 @@ exports.typeDefs = gql `
             price: Float!
             email: String!
             username: String!
-            secret: String!
+            type: String!
         ) : Listing
 
         createBooking(
@@ -80,7 +80,7 @@ exports.typeDefs = gql `
             booking_start: Date!
             booking_end: Date!
             username: String!
-            secret: String!
+            type: String!
         ) : Booking
 
     }
